@@ -1,0 +1,63 @@
+@import "variables.scss";
+
+
+.Cform{
+    text-align: center;
+    &__contactAlign{
+        text-align: right;
+    }
+    &__contactInfo{
+        text-align: left;
+        background-color: $colorBlue;
+        padding: 20px;
+        padding-left: 100px;
+        padding-right: 100px;
+        &--title{
+            color: $colorWhite;
+            text-align: center;
+        }
+        &--text{
+            color: $colorWhite;  
+        }
+        &--input{
+            padding: 5px;
+            width: 100%;
+            border: solid $colorBlack 3px;
+        }
+        &--button{
+            background-color: $colorGreen;
+            height: 38px;
+            width: 100px;
+            color: $colorWhite;
+            border-radius: 6px;
+            border: 0px;
+            -moz-box-shadow: inset 0 0 2px $colorDarkerGreen;
+            -webkit-box-shadow: inset 0 0 2px $colorDarkerGreen;
+            box-shadow: inset 0 0 2px $colorDarkerGreen;
+            &:hover{
+                color: $colorBlack;
+                background-color: $colorWhite;
+                transition: all 0.3s ease-in-out;
+                -moz-box-shadow: inset 0 0 10px #000000;
+                -webkit-box-shadow: inset 0 0 10px #000000;
+                box-shadow: inset 0 0 10px #000000;
+            }
+        }
+    }
+    
+}
+.error{
+    color: red;
+    display: none;
+}
+
+@media only screen and (max-width: 750px){
+    .Cform{
+        &__contactInfo{
+            padding: 20px;
+            align-content: center;
+        }
+    }
+
+}
+

@@ -1,0 +1,39 @@
+@import "variables.scss";
+@import "blocktags.scss";
+
+.gallery{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.information{
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+}
+
+
+.info{
+    &--visual{
+        border: 35px solid $colorBlue !important;
+        height: 894px !important;
+        padding: 0;
+        &__image{
+            width: 100%;
+        }
+        &__link{
+            color: $colorBlack;
+            margin-left: 20px;
+        }
+        &__active{
+            color: $colorBlack;
+            margin-left: 20px;
+            border-bottom: 1px solid $colorBlack;
+            padding-bottom: 3px;
+        }
+    }
+    &--text{
+    border: 35px solid $colorBlue !important;
+    }
+
+}

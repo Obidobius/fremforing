@@ -1,0 +1,10 @@
+@import "variables.scss";
+
+.foot{
+    background-color: $colorBlue;
+    text-align: center;
+        &--content{
+            color: $colorWhite;
+            padding: 40px;
+            }
+}

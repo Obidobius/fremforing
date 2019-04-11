@@ -1,0 +1,96 @@
+@import "variables.scss";
+@import "mixing.scss";
+
+
+.navLink{
+    display: flex;
+    padding-top: 17;
+}
+.navigation{
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    width: 100%;
+    margin: auto !important;
+    background-color:$colorBlue;
+    &--title{
+        font-size: remCalc(48px);
+        color:$colorWhite !important;
+    }
+    &--contain{
+        &__button{
+        font-size: 16px;
+        display: flex;
+        margin-left: 10px;
+        position: relative;
+        color: $colorWhite;
+        border: none;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color:$colorBlue;
+        }
+        &__button:before{
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 2px;
+          color: $colorBlue;
+          bottom: 0;
+          left: 0;
+          visibility: hidden;
+          transform: scaleX(0);
+          transition: all 0.4s ease-in-out;
+        }
+        &__button:hover:before{
+          transition: 0.7s;
+          color: $colorBlack;
+          border-bottom: solid white 1px; 
+          visibility: visible;
+          transform: scaleX(1);
+      }
+      &__button:hover{
+            color: $colorBlack;
+          transition: 0.7s;
+      }
+      &__button:active{
+          border-width: 0px;
+          color: $colorBlack;
+          font-size: 90%;
+      }
+    }
+}
+//Removes blue border around buttons when clicking/clicked
+.navigation--contain__button:active, .navigation--contain__button:focus,
+.navigation--contain__button:active:focus {
+outline:none !important;
+}
+.currentPlace{
+    color: black !important;
+}
+.navbar-default{
+    background-color:$colorBlue !important;
+    border-radius: 0px !important;
+    border: 0 !important;
+    margin: 0 !important;
+    padding-bottom: 0px !important;
+}
+.aboutPage{
+    max-width: 1920px !important;
+}
+@media only screen and (max-width: 750px) {
+.navLink{
+    display: block;
+}
+
+.navigation{
+    &--title{
+        font-size: remCalc(44);
+    }
+    &--contain{
+        margin-bottom: 30px;
+        &__button{
+            font-size: 18px;
+        }
+    }
+}
+
+}

@@ -1,0 +1,42 @@
+@import "variables.scss";
+
+
+
+.cardContainer {
+    padding-bottom: 20px;
+    border: solid $colorBlue 3px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    &--content{
+        text-align: center;
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        &__text{
+            text-align: left;
+            font-size: 15px;
+        }
+        &__button{
+            color: $colorWhite;
+            background-color: $colorBlue;
+            border-radius: 6px;
+            width: 100px;
+            height: 35px;
+            font-size: 18px;
+            &:hover{
+                background-color: $colorGreen;
+                color: $colorBlack;
+                transition: all 0.3s ease-in-out;
+                -moz-box-shadow: inset 0 0 10px #000000;
+                -webkit-box-shadow: inset 0 0 10px #000000;
+                box-shadow: inset 0 0 10px #000000;
+            }
+        }
+    }
+}
+
+.contain{
+    padding-bottom: 45px;
+}
+
+

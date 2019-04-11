@@ -1,0 +1,36 @@
+.Cform {
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.Cform__contactAlign {
+  text-align: right;
+}
+.Cform__contactInfo {
+  text-align: left;
+  background-color: #00aeef;
+  padding: 20px;
+  margin: 30px;
+}
+.Cform__contactInfo--text {
+  color: #FFFFFF;
+}
+.Cform__contactInfo--input {
+  padding: 5px;
+  width: 100%;
+  border: solid #000000 3px;
+}
+.Cform__contactInfo--button {
+  background-color: #07db61;
+  height: 38px;
+  width: 100px;
+  color: #FFFFFF;
+  border-radius: 6px;
+  border: 0px;
+}
+.Cform__contactInfo--button:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+/*# sourceMappingURL=contact.css.map */

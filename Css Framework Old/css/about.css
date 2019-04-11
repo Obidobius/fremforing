@@ -1,0 +1,33 @@
+.cardContainer {
+  padding-bottom: 40px;
+  border: solid #00aeef 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.cardContainer--content {
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.cardContainer--content__text {
+  text-align: left;
+}
+.cardContainer--content__button {
+  color: #FFFFFF;
+  background-color: #00aeef;
+  border-radius: 6px;
+  width: 100px;
+  height: 35px;
+  font-size: 18px;
+}
+.cardContainer--content__button:hover {
+  background-color: #07db61;
+  color: #000000;
+}
+
+.contain {
+  padding-bottom: 45px;
+}
+
+/*# sourceMappingURL=about.css.map */

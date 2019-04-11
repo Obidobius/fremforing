@@ -1,0 +1,62 @@
+@import "variables.scss";
+@import "blocktags.scss";
+
+h1{
+    text-align: center;
+}
+.gallery{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+#indexPage{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.info{
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    &--visual{
+        border: 35px solid $colorBlue !important;
+        border-left: 17.5px solid $colorBlue !important;
+        padding: 0;
+        overflow: hidden;
+        &__image{
+            width: 100%;
+        }
+        &__link{
+            color: $colorBlack;
+            margin-left: 20px;
+            margin-bottom: 30px;
+        }
+        &__active{
+            color: $colorBlack;
+            margin-left: 20px;
+            border-bottom: 1px solid $colorBlack;
+            padding-bottom: 3px;
+        }
+    }
+    &--text{
+        border: 35px solid $colorBlue !important;
+        border-right: 17.5px solid $colorBlue !important;
+    }
+
+}
+#sideInfo{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+@media only screen and (max-width: 750px) {
+    .info{
+        display: block;
+        &--visual{
+            border: 10px solid $colorBlue !important;
+        }
+        &--text{
+            border: 10px solid $colorBlue !important;
+        }
+    }
+}

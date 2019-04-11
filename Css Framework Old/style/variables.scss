@@ -1,0 +1,8 @@
+@if(global_variable_exists(font)) {
+@import url($font);
+}
+
+$colorBlack: #000000;
+$colorWhite: #FFFFFF;
+$colorBlue: #00aeef;
+$colorGreen: #07db61;

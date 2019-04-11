@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800");
+.navigation {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+
+.navigation--navLink {
+  color: #FFFFFF !important;
+}
+
+.navigation--navLink:hover {
+  color: black !important;
+}
+
+.navigation--navLink__mainHeader {
+  font-size: 3rem;
+  color: #FFFFFF !important;
+}
+
+.navigation--navLink__line {
+  color: #FFFFFF !important;
+  border-right: solid #FFFFFF 2px !important;
+  padding-bottom: 5px !important;
+  line-height: 21px !important;
+}
+
+.navigation--navLink__line:hover {
+  color: black !important;
+}
+
+.currentPlace {
+  color: black !important;
+}
+
+.navbar-default {
+  background-color: #00aeef !important;
+  border-radius: 0px !important;
+  border: 0 !important;
+  margin: 0 !important;
+  padding-bottom: 0px !important;
+}
+
+.foot {
+  background-color: #00aeef;
+  text-align: center;
+}
+
+.foot--content {
+  color: #FFFFFF;
+  padding: 40px;
+}
+
+.Cform {
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.Cform__contactAlign {
+  text-align: right;
+}
+
+.Cform__contactInfo {
+  text-align: left;
+  background-color: #00aeef;
+  padding: 20px;
+  margin: 30px;
+}
+
+.Cform__contactInfo--text {
+  color: #FFFFFF;
+}
+
+.Cform__contactInfo--input {
+  padding: 5px;
+  width: 100%;
+  border: solid #000000 3px;
+}
+
+.Cform__contactInfo--button {
+  background-color: #07db61;
+  height: 38px;
+  width: 100px;
+  color: #FFFFFF;
+  border-radius: 6px;
+  border: 0px;
+}
+
+.Cform__contactInfo--button:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.cardContainer {
+  padding-bottom: 40px;
+  border: solid #00aeef 3px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.cardContainer--Image {
+  background-image: url("https://source.unsplash.com/350x150/?island,hotel");
+}
+
+.cardContainer--content {
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.cardContainer--content__text {
+  text-align: left;
+}
+
+.cardContainer--content__button {
+  color: #FFFFFF;
+  background-color: #00aeef;
+  border-radius: 6px;
+  width: 100px;
+  height: 35px;
+  font-size: 18px;
+}
+
+.cardContainer--content__button:hover {
+  background-color: #07db61;
+  color: #000000;
+}
+
+.contain {
+  padding-bottom: 45px;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+a:hover {
+  color: #000000;
+}
+
+body {
+  font-family: 'Open Sans' !important;
+}
+
+.gallery {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.information {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.info--visual {
+  border: 35px solid #00aeef !important;
+  height: 894px !important;
+  padding: 0;
+}
+
+.info--visual__image {
+  width: 100%;
+}
+
+.info--visual__link {
+  color: #000000;
+  margin-left: 20px;
+}
+
+.info--visual__active {
+  color: #000000;
+  margin-left: 20px;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 3px;
+}
+
+.info--text {
+  border: 35px solid #00aeef !important;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+a:hover {
+  color: #000000;
+}
+
+body {
+  font-family: 'Open Sans' !important;
+}
+
+.navigation {
+  width: 100%;
+  margin: auto !important;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background-color: #121016;
+}
+
+.navigation--contain__button {
+  margin-left: 10px;
+  position: relative;
+  color: gray;
+  border: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #121016;
+}
+
+.navigation--contain__button:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  color: white;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.navigation--contain__button:hover:before {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  color: white;
+  border-bottom: solid white 1px;
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.navigation--contain__button:hover {
+  color: #fafafa;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.navigation--contain__button:active {
+  border-width: 0px;
+  color: white;
+  font-size: 90%;
+}
+
+.navigation--contain__button:active, .navigation--contain__button:focus,
+.navigation--contain__button:active:focus {
+  outline: none !important;
+}
+/*# sourceMappingURL=css.css.map */

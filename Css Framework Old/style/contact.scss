@@ -1,0 +1,38 @@
+@import "variables.scss";
+
+.Cform{
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    &__contactAlign{
+        text-align: right;
+    }
+    &__contactInfo{
+        text-align: left;
+        background-color: $colorBlue;
+        padding: 20px;
+        margin: 30px;
+        &--text{
+            color: $colorWhite;
+            
+        }
+        &--input{
+            padding: 5px;
+            width: 100%;
+            border: solid $colorBlack 3px;
+        }
+        &--button{
+            background-color: $colorGreen;
+            height: 38px;
+            width: 100px;
+            color: $colorWhite;
+            border-radius: 6px;
+            border: 0px;
+            &:hover{
+                color: $colorBlack;
+                background-color: $colorWhite;
+            }
+        }
+    }
+    
+}

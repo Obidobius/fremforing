@@ -1,0 +1,100 @@
+.navigation {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+
+.navigation--navLink {
+  color: red !important;
+}
+
+.navigation--navLink:hover {
+  color: black !important;
+}
+
+.navigation--navLink__mainHeader {
+  font-size: 3rem;
+  color: #FFFFFF !important;
+}
+
+.navigation--navLink__line {
+  color: #FFFFFF !important;
+  border-right: solid #FFFFFF 2px !important;
+  padding-bottom: 5px !important;
+  line-height: 21px !important;
+}
+
+.navigation--navLink__line:hover {
+  color: black !important;
+}
+
+.currentPlace {
+  color: black !important;
+}
+
+.navbar-default {
+  background-color: #00aeef !important;
+  border-radius: 0px !important;
+  border: 0 !important;
+  margin: 0 !important;
+  padding-bottom: 0px !important;
+}
+
+.navigation {
+  width: 100%;
+  margin: auto !important;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.navigation--contain__button {
+  margin-left: 10px;
+  position: relative;
+  color: gray;
+  border: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #121016;
+}
+
+.navigation--contain__button:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  color: white;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.navigation--contain__button:hover:before {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  color: white;
+  border-bottom: solid white 1px;
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.navigation--contain__button:hover {
+  color: #fafafa;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.navigation--contain__button:active {
+  border-width: 0px;
+  color: white;
+  font-size: 90%;
+}
+
+.navigation--contain__button:active, .navigation--contain__button:focus,
+.navigation--contain__button:active:focus {
+  outline: none !important;
+}
+/*# sourceMappingURL=header.css.map */

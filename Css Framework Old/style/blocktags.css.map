@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,EAAE,CAAA;EACE,SAAS,ECHD,OAAe;CDI1B;;AACD,AAAA,CAAC,CAAA;EACG,KAAK,EEFI,OAAO;CFMnB;;AALD,AAEI,CAFH,AAEI,MAAM,CAAA;EACH,KAAK,EELA,OAAO;CFMf;;AAEL,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,sBAAsB;CACtC",
+    "sources": [
+        "blocktags.scss",
+        "mixing.scss",
+        "variables.scss"
+    ],
+    "names": [],
+    "file": "blocktags.css"
+}

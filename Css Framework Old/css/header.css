@@ -1,0 +1,37 @@
+.navigation {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+.navigation--navLink {
+  color: #FFFFFF !important;
+}
+.navigation--navLink:hover {
+  color: black !important;
+}
+.navigation--navLink__mainHeader {
+  font-size: 3rem;
+  color: #FFFFFF !important;
+}
+.navigation--navLink__line {
+  color: #FFFFFF !important;
+  border-right: solid #FFFFFF 2px !important;
+  padding-bottom: 5px !important;
+  line-height: 21px !important;
+}
+.navigation--navLink__line:hover {
+  color: black !important;
+}
+
+.currentPlace {
+  color: black !important;
+}
+
+.navbar-default {
+  background-color: #00aeef !important;
+  border-radius: 0px !important;
+  border: 0 !important;
+  margin: 0 !important;
+  padding-bottom: 0px !important;
+}
+
+/*# sourceMappingURL=header.css.map */

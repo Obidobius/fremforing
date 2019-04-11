@@ -1,0 +1,15 @@
+@import "mixing.scss";
+@import "variables.scss";
+
+h1{
+    font-size: remCalc(36);
+}
+a{
+    color:$colorWhite;
+    &:hover{
+        color: $colorBlack;
+    }
+}
+body {
+    font-family: 'Open Sans' !important;
+}
